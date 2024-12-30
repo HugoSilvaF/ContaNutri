@@ -34,3 +34,15 @@ O **ContaNutri** funciona utilizando a API da **USDA FoodData Central**, que ofe
     "Total Fat": "9.5 g",
     "Carbohydrates": "1.1 g"
   }
+ - **Exemplo 2**:  
+    Usuário digita:  
+    `100g de frango desfiado`  
+     O sistema retorna:  
+
+    ```json
+    {
+      "Energy": "165 kcal",
+      "Protein": "31 g",
+      "Total Fat": "3.6 g",
+      "Carbohydrates": "0 g"
+    }
